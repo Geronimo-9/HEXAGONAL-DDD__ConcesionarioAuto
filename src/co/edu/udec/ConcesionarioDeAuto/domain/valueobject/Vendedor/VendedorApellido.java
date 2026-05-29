@@ -1,4 +1,4 @@
 package edu.udec.ConcesionarioDeAuto.domain.valueobject.Vendedor;
 
-public class ClienteApellido {
+public class VendedorApellido {
 }

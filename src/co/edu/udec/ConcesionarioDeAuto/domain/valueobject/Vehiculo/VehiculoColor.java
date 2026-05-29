@@ -1,4 +1,4 @@
-package edu.udec.ConcesionarioDeAuto.domain.valueobject.Vendedor;
+package edu.udec.ConcesionarioDeAuto.domain.valueobject.Vehiculo;
 
-public class VendedorNombre {
+public class VehiculoColor {
 }

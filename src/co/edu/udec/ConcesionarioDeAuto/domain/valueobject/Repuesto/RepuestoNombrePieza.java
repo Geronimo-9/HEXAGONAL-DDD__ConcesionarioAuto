@@ -1,4 +1,4 @@
 package edu.udec.ConcesionarioDeAuto.domain.valueobject.Repuesto;
 
-public class VehiculoEstadoVehiculo {
+public class RepuestoNombrePieza {
 }

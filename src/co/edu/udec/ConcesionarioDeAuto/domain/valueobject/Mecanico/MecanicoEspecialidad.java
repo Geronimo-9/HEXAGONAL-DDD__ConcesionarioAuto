@@ -1,4 +1,4 @@
 package edu.udec.ConcesionarioDeAuto.domain.valueobject.Mecanico;
 
-public class ClienteTelefono {
+public class MecanicoEspecialidad {
 }
