@@ -1,25 +1,23 @@
 package edu.udec.ConcesionarioDeAuto.domain.exceptions;
 
-public class PlacaVehiculoInvalida extends RuntimeException {
+public final class PlacaInvalidaExcepcion extends DomainExceptionsCEA {
 
-    public static final String DATOS_INVALIDO = "La placa del Vehiculo no corresponde al formato";
-    public static final String CAMPO_VACIO = "La placa del Vehiculo no corresponde al formato";
+    private static final String MESSAGE_PLACA_INVALIDA = "La placa del vehículo es inválida.";
+    private static final String MESSAGE_PLACA_NULA = "La placa del vehículo no puede ser nula.";
+    private static final String MESSAGE_PLACA_INEXISTENTE = "La placa del vehículo no existe.";
 
-
-
-
-
-    public CamposInvalidos(String message) {
+    private PlacaInvalidaExcepcion(final String message) {
         super(message);
     }
 
-
-    public PlacaVehiculoInvalida(String message) {
-        super(message);
+    public static PlacaInvalidaExcepcion becausePlacaIsInvalid() {
+        return new PlacaInvalidaExcepcion(MESSAGE_PLACA_INVALIDA);
     }
 
-
-
-
-    public static
+    public static PlacaInvalidaExcepcion becausePlacaIsNull() {
+        return new PlacaInvalidaExcepcion(MESSAGE_PLACA_NULA);
+    }
+    public static PlacaInvalidaExcepcion becausePlacaIsNotExist() {
+        return new PlacaInvalidaExcepcion(MESSAGE_PLACA_INEXISTENTE);
+    }
 }

@@ -4,5 +4,5 @@ public enum VendedorEstadoLaboral {
 
     ACTIVO,
     INACTIVO,
-
+    PENDIENTE,
 }
