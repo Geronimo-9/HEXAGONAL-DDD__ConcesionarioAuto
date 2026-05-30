@@ -4,11 +4,11 @@ import edu.udec.ConcesionarioDeAuto.domain.exceptions.DniInvalidoExcepcion;
 
 import java.util.Objects;
 
-public record MecanicoId(String value) {
+public record MecanicoDni(String value) {
 
-    public MecanicoId {
+    public MecanicoDni {
         final String valorNormalizado =
-                Objects.requireNonNull(value, "El ID no puede ser nulo").trim();
+                Objects.requireNonNull(value, "El DNI no puede ser nulo").trim();
         validarVacio(valorNormalizado);
         validarFormato(valorNormalizado);
         value = valorNormalizado;
