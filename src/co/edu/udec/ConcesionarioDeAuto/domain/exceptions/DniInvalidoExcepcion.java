@@ -1,6 +1,6 @@
 package edu.udec.ConcesionarioDeAuto.domain.exceptions;
 
-public class DniInvalidoExcepcion extends RuntimeException {
+public final class DniInvalidoExcepcion extends RuntimeException {
 
     private static final String MESSAGE_DNI_INVALIDO = "La identificación DNI es inválida.";
     private static final String MESSAGE_DNI_NULO = "La identificación DNI no puede ser nula.";

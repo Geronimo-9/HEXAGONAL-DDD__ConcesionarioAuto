@@ -1,4 +1,4 @@
-package edu.udec.ConcesionarioDeAuto.domain.valueobject.Venta;
+package edu.udec.ConcesionarioDeAuto.domain.valueobject.Ventas;
 
 
 import edu.udec.ConcesionarioDeAuto.domain.exceptions.CamposInvalidosExcepcion;

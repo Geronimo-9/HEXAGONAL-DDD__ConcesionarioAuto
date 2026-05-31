@@ -1,4 +1,4 @@
-package edu.udec.ConcesionarioDeAuto.domain.valueobject.Venta;
+package edu.udec.ConcesionarioDeAuto.domain.valueobject.Ventas;
 
 public class VentaFechaCompra {
 }

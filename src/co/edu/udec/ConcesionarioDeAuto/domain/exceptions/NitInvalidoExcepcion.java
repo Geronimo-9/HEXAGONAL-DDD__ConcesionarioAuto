@@ -2,8 +2,8 @@ package edu.udec.ConcesionarioDeAuto.domain.exceptions;
 
 public class NitInvalidoExcepcion extends RuntimeException {
 
-    private static final String MESSAGE_NIT_INVALIDO = "El NIT ingresado es inválido.";
-    private static final String MESSAGE_NIT_NULO = "El NIT no puede ser nulo.";
+    private static final String MESSAGE_NIT_INVALIDO = "El NIT ingresado no esta registrado.";
+    private static final String MESSAGE_NIT_NULO = "Debes llenar el campo";
 
 
     private NitInvalidoExcepcion(final String message) {
