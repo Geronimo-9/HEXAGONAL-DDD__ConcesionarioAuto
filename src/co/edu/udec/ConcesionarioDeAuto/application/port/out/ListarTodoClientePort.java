@@ -5,6 +5,6 @@ import edu.udec.ConcesionarioDeAuto.domain.model.Cliente;
 
 import java.util.List;
 
-public interface ListarTodoClientePort {
+public interface ListarTodoClientePort{
   List<Cliente> ListarCliente();
 }
