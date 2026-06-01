@@ -6,5 +6,5 @@ import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 
 public interface EliminarClienteCasoUso {
-  void execute(@NotNull @Valid ComandoBorrarCliente command);
+  void execute(@NotNull @Valid ComandoBorrarCliente commandoEliminar);
 }
